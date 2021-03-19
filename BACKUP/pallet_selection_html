@@ -1,0 +1,55 @@
+ <!--Selección de pallet-->
+        <div class="pallet-size">
+            <h1>Pallet selection</h1>   
+            <!--Input para las unidades de longitud-->
+            <div class="pallet-selection-input">
+                <select id="pallet-selection">
+                    <option value="1"><h1>EPAL EURO Pallet</h1></option>
+                    <option value="2"><h1>EPAL 2 Pallet</h1></option>
+                    <option value="3"><h1>EPAL 3 Pallet</h1></option>
+                    <option value="4"><h1>EPAL 6 Pallet</h1></option>
+                    <option value="5"><h1>USA 48x40</h1></option>
+                    <option value="6"><h1>USA 42x42</h1></option>
+                    <option value="7"><h1>Custom pallet...</h1></option>
+                </select>
+            </div>  
+
+            <!--Input para las unidades de longitud-->
+            <div class="pallet-measurement-input">
+                <select id="pallet-measurement">
+                    <option value="1"><h1>kg</h1></option>
+                    <option value="2"><h1>lbs</h1></option>
+                </select>
+            </div>
+
+
+            <!--Largo del pallet-->
+            <div class="pallet-lenght">
+                <h1>Lenght</h1>
+                <input type="number" id="pallet-lenght" name="pallet-lenght" placeholder="Introduce lenght..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div>    
+            <!--Ancho del pallet-->
+            <div class="pallet-width">
+                <h1>Width</h1>
+                <input type="number" id="pallet-width" name="pallet-width" placeholder="Introduce width..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div> 
+            <!--Largo del pallet-->
+            <div class="pallet-height">
+                <h1>Height</h1>
+                <input type="number" id="pallet-height" name="pallet-height" placeholder="Introduce height..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div> 
+            <!--Masa del pallet-->
+            <div class="pallet-mass">
+                <h1>Mass</h1>
+                <input type="number" id="pallet-mass" name="pallet-mass" placeholder="Introduce mass..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div> 
+            <!--Carga del pallet-->
+            <div class="pallet-load">
+                <h1>Load</h1>
+                <input type="number" id="pallet-load" name="pallet-load" placeholder="Introduce load..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div> 
+            <!--Botón de continuar a posicionamiento de cajas-->
+            <div class="next-button-pallet-selection">
+                <button type="button"><h1>Next</h1></button>
+            </div>
+        </div>

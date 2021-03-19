@@ -1,0 +1,13 @@
+        <!--Opciones-->
+        <div class="options">
+          <!--Selección de idioma-->
+          <div class="project-name">
+            <h1>Language</h1>
+            <img src="/nav_icons/spa.png">
+            <label class="switchLanguage">
+              <input type="checkbox">
+              <div class="slide"></div>
+            </label>
+            <img src="/nav_icons/eng.png">
+          </div>
+        </div>

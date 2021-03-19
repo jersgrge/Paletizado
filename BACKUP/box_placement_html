@@ -1,0 +1,42 @@
+<!--Colocación de las cajas-->
+        <div class="box-placement">
+            <h1>Box placement</h1>   
+            <!--Posición X de la caja seleccionada-->
+            <div class="box-pos-x">
+                <h1>Position X:</h1>
+                <input type="number" id="position-x" name="position-x" placeholder="..."/>
+            </div> 
+            <!--Posición X de la caja seleccionada-->
+            <div class="box-pos-y">
+                <h1>Position Y:</h1>
+                <input type="number" id="position-y" name="position-y" placeholder="..."/>
+            </div> 
+            <!--Botón para rotar la caja-->
+            <div class="rotate-box">
+                <button type="button"><h1>Rotate 90º</h1></button>
+            </div>
+            <!--Botón para borrar la caja-->
+            <div class="delete-box">
+                <button type="button"><h1>Delete box</h1></button>
+            </div>
+        </div>
+        <!--Colocación de las cajas-->
+        <div class="layer-control">
+            <h1>Layer control</h1>   
+            <!--Magic pack-->
+            <div class="magic-pack">
+                <button type="button"><h1>Magic pack</h1></button>
+            </div>
+            <!--Etiquetas hacia fuera-->
+            <div class="faces-out">
+                <button type="button"><h1>Labels out</h1></button>
+            </div>
+            <!--Centrado de las cajas-->
+            <div class="allign">
+                <button type="button"><h1>Centrate pallet</h1></button>
+            </div>
+            <!--Botón de continuar a layers-->
+            <div class="next-button-layers">
+                <button type="button"><h1>Next</h1></button>
+            </div>
+        </div>
