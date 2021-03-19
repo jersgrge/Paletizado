@@ -1,0 +1,43 @@
+<!--Dimensiones del pallet-->
+        <div class="layer-specs">
+            <h1>Layer specs</h1>   
+            <!--Dimensiones de la carga-->
+            <div class="load-size">
+                <h1>Load size</h1>
+                <input type="number" id="absolute-size" name="absolute-size" placeholder="..."/>
+            </div>
+            <!--Masa total-->
+            <div class="total-mass">
+                <h1>Total mass</h1>
+                <input type="number" id="absolute-mass" name="absolute-mass" placeholder="..."/>
+            </div>
+            <!--Total de pisos-->
+            <div class="total-layers">
+                <h1>Layers</h1>
+                <input type="number" id="absolute-layers" name="absolute-layers" placeholder="..."/>
+            </div>
+            <!--Altura máxima-->
+            <div class="max-height">
+                <h1>Max. height</h1>
+                <input type="number" id="absolute-height" name="absolute-height" placeholder="..."/>
+            </div>
+            <!--Área efectiva-->
+            <div class="efective-area">
+                <h1>Effective area</h1>
+                <input type="number" id="absolute-area" name="absolute-area" placeholder="..."/>
+            </div>
+            <!--Carga efectiva-->
+            <div class="efective-load">
+                <h1>Effective load</h1>
+                <input type="number" id="absolute-load" name="absolute-load" placeholder="..."/>
+            </div>
+            <!--Botón de continuar a exportación-->
+            <div class="next-button-export">
+                <button type="button"><h1>Export project</h1></button>
+            </div>
+        </div>
+        
+        <!--Slider con los pisos-->
+        <div class="slider-layers">
+            <input type="range" step="1" value="1" min="1" max="10">
+        </div>

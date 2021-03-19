@@ -1,0 +1,17 @@
+        <!--Descripción del proyecto-->
+        <div class="project-description">
+          <!--Nombre del proyecto-->
+          <div class="project-name">
+            <h1>Project name</h1>
+            <input type="text" id="project-title">
+          </div>
+          <!--Texto del proyecto-->
+          <div class="project-text">
+            <h1>Description</h1>
+            <textarea id="project-textarea" rows="8" cols="200"></textarea>
+          </div>
+          <!--Botón de continuar a configuración de cajas-->
+          <div class="next-button-project-description">
+              <button type="button"><h1>Next</h1></button>
+          </div>
+        </div>

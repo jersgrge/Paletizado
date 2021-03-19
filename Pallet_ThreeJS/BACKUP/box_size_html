@@ -1,0 +1,65 @@
+<!--Tamaño de caja-->
+        <div class="box-size">
+            <h1>Box size</h1>   
+            <!--Input para las unidades de longitud-->
+            <div class="unit-mesurement-input">
+                <select id="unit-measurement">
+                    <option value="1"><h1>mm</h1></option>
+                    <option value="2"><h1>in</h1></option>
+                </select>
+            </div>
+
+            <!--Input para las unidades de peso-->
+            <div class="unit-weight-input">
+                <select id="unit-measurement">
+                    <option value="1"><h1>kg</h1></option>
+                    <option value="2"><h1>lbs</h1></option>
+                </select>
+            </div>
+            
+            <!--Largo de caja-->
+            <div class="box-lenght">
+                <h1>Lenght</h1>
+                <input type="number" id="box-lenght" name="box-lenght" placeholder="Introduce lenght..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div>
+            <!--Ancho de caja-->
+            <div class="box-width">
+                <h1>Width</h1>
+                <input type="number" id="box-width" name="box-lenght" placeholder="Introduce width..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div>
+            <!--Alto de caja-->
+            <div class="box-height">
+                <h1>Height</h1>
+                <input type="number" id="box-height" name="box-height" placeholder="Introduce height..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;" onfocus="this.value=''"/>
+            </div>
+            <!--Masa de caja-->
+            <div class="box-mass">
+                <h1>Mass</h1>
+                <input type="number" id="box-mass" name="box-mass" placeholder="Introduce mass..." pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==4) return false;" onfocus="this.value=''"/>
+            </div>
+            <h2>Labels</h2>
+            <!--Etiqueta frontal-->
+            <div class="front-label">
+                <input type="checkbox"  id="front-label">
+                <h1>Front label</h1>
+            </div>
+            <!--Etiqueta derecha-->
+            <div class="right-label">
+                <input type="checkbox"  id="right-label">
+                <h1>Right label</h1>
+            </div>
+            <!--Etiqueta izquierda-->
+            <div class="left-label">
+                <input type="checkbox"  id="front-label">
+                <h1>Left label</h1>
+            </div>
+            <!--Etiqueta trasera-->
+            <div class="back-label">
+                <input type="checkbox"  id="front-label">
+                <h1>Back label</h1>
+            </div>
+            <!--Botón de continuar a configuración del pallet-->
+            <div class="next-button-box-size">
+                <button type="button"><h1>Next</h1></button>
+            </div>
+        </div>

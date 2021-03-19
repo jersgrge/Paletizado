@@ -1,0 +1,20 @@
+        <!--Exportación de proyecto-->
+        <div class="export-project">
+          <h1>Select robot for the generated script</h1>
+          <!--Exportación con UR10-->
+          <div class="export-UR10">
+              <button type="button"><h1>UR10</h1></button>
+          </div>
+          <!--Exportación con UR16-->
+          <div class="export-UR16">
+          <button type="button"><h1>UR16</h1></button>
+          </div>
+          <!--Exportación con Dobot CR10-->
+          <div class="export-CR10">
+            <button type="button"><h1>CR10</h1></button>
+          </div>
+          <!--Exportación con Dobot CR16-->
+          <div class="export-CR16">
+            <button type="button"><h1>CR16</h1></button>
+          </div>
+        </div>
